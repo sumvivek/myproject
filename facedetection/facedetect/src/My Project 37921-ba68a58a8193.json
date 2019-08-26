@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gothic-airlock-244206",
+  "private_key_id": "ba68a58a81934cbb3371d959f22fb49a206fc780",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCuikczMfkb0FMF\nf0Z0272poS9rEeUMe1ojxXj6XgYj4QyBAdvNd4ynspx9Y4u+fCzahHpejPUMUcf5\nhNvhmJvdDqFUxcKFtQ2nqLZ78bA3yQcurdik56S8sMxvCmtCNzOKB7+mHuYPRLBe\nQGk6fFA6Q70K628KVW5XQa1nkx6GvXIshOte8ukJBH8PjCpW7CcWXevLFwp6s4ue\nPCLKPQLSL5VwhVUJDbfLzWaWDeCFJkhBMk9sEcegpTUDCGQzgGzwUXlCvs7rA42j\n+8aGN9WZPAOnE45hXGpCgIm4xUcsipowZeg0xODGImQ2WjgSxBRN9/VggC0ULmHa\nRyAq+jKvAgMBAAECggEAGJSNuWaAxAt/HaeSdxOZLsHt6SDAhpT6mU4OnwfNypC/\nj42A9HsxGk7bngb+X6miMXX1u8oTGpSL2pZ81tUEokmUq9kb73OThDiM1oCvhfOw\nKME/4N1khFRLvhmUCGO4xOgZc94nHSBZzDQ6/YsTS1lNzrNgVG66ltw/fPYpluTs\nQNy0adsxZmLLUoTnNpscLYitu2PvzyEvtu4NQuM1pPb09FEHqZOljIqajOdVRSre\nf+VxWKFtjyyXkn5pLx9VxqsBxBSVXIa0mfwPCR6fHi9DRLK3geViCD5hzmmFp/Rg\n58LRLTTYxVpN96ohSl6OCOVfBQW3uOtoje88DF8vuQKBgQDr8o+mu9fNJ7t25YLk\nf9C7HbCmxlGFKfgmO44EJ6ouLSxhPG/D0lJr/hHlwaG6qwIEOJD1OFChcpIV8C/G\nSpqy+FwtiYOY2/67zv2suFHQHmGOWBoCu9+fzMgmJEYhRta+JWs8Y9lBw4nFoyMR\nJzARGHsplavJvV1iQ9WcMD6JuQKBgQC9X7IUwtkdeQQV3xynlfGO/EzuXaoY2O92\nhhfVoe+4sc92Z4l+x410/PNgjrHKf/NRpTG3rKAYVhhe6IUNwkXaMvYL6W3Dg9wV\niHmnxZ1X7xbUVkiwD+r+FsrRpZLad3zxoeQNoWfwjUQU44MDriF9D0Eiw9xszrv8\n/BeQf/KzpwKBgHii2FfDix7Vxb+QsU/rGenR0FQ06dFQGBRUNtRhA14AssQ0hmB0\n1Ldqe/QhAHPUo39M/LCkTnV9gru8xnB4DIic+2Q8/w/Uy3Vy67i3tPzXy8FfwkzL\nihbGOT9nJIQ3F+y4bQ+/bYF2XKa0NmW6x5S2E6K7Z84KCAkJ7dmhwRfhAoGAAwl0\n1qZlSva03RDt6bYa4JslNLFl1+4qsPDnkvJ84K5hUFnKt7DFkPm5gXPoYAH7SfTn\nPjXTf3BqBaOe9qCF9EDa90fwDbGgpuvAX7NomY9pA1C666/lqdt9tyz7lOtToqBh\nAuLywsXRMLCRWk7BlLrY5ZDUiR4rn5v/WL7kioMCgYBHnuN9FU5E3KFZJMdWVym6\n9c/HDMAIRQeg+FqFsKCD88fd3VbILdYJnd5rrLb0hOkFNSiwGoaFJMKy99cuRbeM\nBuU/utWBaqWGWqmejGJNabimU0Delh0Q6ofDAJ5ZbYcUd02JwKOwfmv1HNRdhvvm\nHqQ0FITwSP3oSGBCfLBtFw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "facedetectionapp@gothic-airlock-244206.iam.gserviceaccount.com",
+  "client_id": "100210807159188688822",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/facedetectionapp%40gothic-airlock-244206.iam.gserviceaccount.com"
+}

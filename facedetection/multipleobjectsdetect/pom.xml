@@ -1,0 +1,240 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.multipleobjectsdetect</groupId>
+  <artifactId>multipleobjectsdetect</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+	<repository>
+		<id>maven2-repository.java.net</id>
+		<name>Java.net Repository for Maven</name>
+		<url>http://download.java.net/maven/2/</url>
+		<layout>default</layout>
+	</repository>
+</repositories>
+
+<dependencies>
+
+	<dependency>
+		<groupId>com.google.apis</groupId>
+		<artifactId>google-api-services-vision</artifactId>
+		<version>v1-rev369-1.23.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.api-client</groupId>
+		<artifactId>google-api-client</artifactId>
+		<version>1.23.0</version>
+		<exclusions>
+			<exclusion> <!-- exclude an old version of Guava -->
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava-jdk5</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
+	<dependency>
+		<groupId>com.google.guava</groupId>
+		<artifactId>guava</artifactId>
+		<version>20.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.google.oauth-client</groupId>
+		<artifactId>google-oauth-client</artifactId>
+		<version>1.23.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.google.http-client</groupId>
+		<artifactId>google-http-client</artifactId>
+		<version>1.23.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.sun.jersey</groupId>
+		<artifactId>jersey-server</artifactId>
+		<version>1.9</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.sun.jersey.contribs</groupId>
+		<artifactId>jersey-multipart</artifactId>
+		<version>1.9</version>
+	</dependency>
+  <dependency>
+    <groupId>com.google.http-client</groupId>
+    <artifactId>google-http-client-jackson2</artifactId>
+    <version>1.23.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.4</version>
+</dependency>
+    <!-- [END face_detection_dependencies] -->
+
+    <dependency>
+<groupId>com.googlecode.objectify</groupId>
+<artifactId>objectify</artifactId>
+<version>6.0.4</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-errorreporting</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-pubsub</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-dns</artifactId>
+<version>0.97.0-alpha</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-vision</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-iot</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-speech</artifactId>
+<version>1.9.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-dialogflow</artifactId>
+<version>0.97.0-alpha</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-language</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-phishingprotection</artifactId>
+<version>0.8.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-dlp</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-websecurityscanner</artifactId>
+<version>0.97.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-tasks</artifactId>
+<version>1.6.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-container</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-recaptchaenterprise</artifactId>
+<version>0.8.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-logging</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-storage</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-bigquerydatatransfer</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-resourcemanager</artifactId>
+<version>0.97.0-alpha</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-spanner</artifactId>
+<version>1.24.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-bigquery</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-redis</artifactId>
+<version>0.97.0-alpha</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-translate</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-firestore</artifactId>
+<version>1.9.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-talent</artifactId>
+<version>0.14.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-kms</artifactId>
+<version>1.15.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-containeranalysis</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-datastore</artifactId>
+<version>1.79.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-scheduler</artifactId>
+<version>1.2.0</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-asset</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-os-login</artifactId>
+<version>0.97.0-alpha</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-automl</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-video-intelligence</artifactId>
+<version>0.97.0-beta</version>
+</dependency>
+</dependencies>
+</project>
